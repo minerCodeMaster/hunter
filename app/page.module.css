@@ -176,6 +176,11 @@
   font-size: xx-large;
 }
 
+.triplet h3{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .triplet .img{
   height: 40%;
   width: 100%;

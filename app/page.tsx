@@ -40,8 +40,8 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.abouttext}>
-          <h1>Nadpis</h1>
-          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tempore corrupti facere culpa enim consequatur perferendis sunt incidunt velit deserunt laboriosam dicta itaque voluptatibus, a eaque expedita sequi aliquam, tempora beatae praesentium doloribus delectus mollitia? Repellat eaque cum officiis nulla possimus, dolore consectetur ipsum dignissimos, ad delectus deleniti itaque blanditiis numquam quas quae distinctio facilis soluta quaerat ex! Architecto voluptatum dolorum nam tempore odio? Cumque voluptatem optio quis rem quasi neque ipsum officia totam possimus. Repellendus saepe porro illum sint!</h3>
+          <h1>A že to za to stojí!</h1>
+          <h3>Ještě poměrně nedávno naše komunita utrpěli velkou ztrátu. Byl zrušen server. Nebyl to však ledajaký server. Byl to server, který hostil naší komunitu už pěkných pár let. Byla to nejdřív Sakura a potom Hyperonie? Nebo jinak? Ten první byl možná Hitcraft. To už je ale jedno. Důležité je, že ta komunita přetrvává. Sem tam někdo odejde a někdo přijde. Zažili jsme spolu desítky hodin zábavy a ještě to nekončí. Stojí to za to.</h3>
         </div>
       </div>
 
@@ -50,22 +50,22 @@ export default function Home() {
           <div className={styles.img}>
             <Image src={img3} placeholder="blur" layout="fill" objectFit="cover" />
           </div>
-          <h2>Nadpis</h2>
-          <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias vitae quod laboriosam. Facilis ad maiores placeat iusto, ipsam enim ea.</h3>
+          <h2>Prátelský moderátorský tým</h2>
+          <h3>V našem moderátorském týmu najdete jen pečlivé a spravedlivé členy, kteří vám rádi pomohou.</h3>
         </div>
         <div className={styles.b}>
         <div className={styles.img}>
             <Image src={img3} placeholder="blur" layout="fill" objectFit="cover" />
           </div>
-          <h2>Nadpis</h2>
-          <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias vitae quod laboriosam. Facilis ad maiores placeat iusto, ipsam enim ea.</h3>
+          <h2>Pečlivě připravený zážitek</h2>
+          <h3>Na serveru vás čeká zážitek, na kterém jsme všichni pracovali a dali jsme si velmi záležet.</h3>
         </div>
         <div className={styles.c}>
         <div className={styles.img}>
             <Image src={img3} placeholder="blur" layout="fill" objectFit="cover" />
           </div>
-          <h2>Nadpis</h2>
-          <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias vitae quod laboriosam. Facilis ad maiores placeat iusto, ipsam enim ea.</h3>
+          <h2>A livestreamy ze serveru!</h2>
+          <h3>Na twitchi se můžete připojit k pravidelným livestreamům ze serveru a kdo ví, třeba si tam i najít nové kamarády.</h3>
         </div>
       </div>
 
