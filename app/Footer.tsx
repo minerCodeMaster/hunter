@@ -1,16 +1,21 @@
 import styles from './page.module.css'
-import Image from 'next/image'
-import img from '../public/HUNTER_SERVER.png'
+import Image from "next/legacy/image"
+import img from '../public/HUNTER_SERVER_small.png'
+import img2 from '../public/87371-3840x2160-desktop-4k-minecraft-wallpaper.jpg'
 
-const imgStyle : {} = {objectFit: 'contain'};
+const imgStyle : {} = {width: '100%', height: '100%'};
 
 export default function Footer() {
 
 return (
     <footer className={styles.footer}>
-        
+        <div className={styles.fimgdiv}>
+            <Image alt='img' src={img2} placeholder='blur' layout='fill' />
+        </div>
+        <div className={styles.fuimgdiv}/>
+        <div className={styles.fnimgdiv}/>
         <div className={styles.footertop}>
-            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum veniam eum, impedit quia suscipit voluptate qui odit soluta expedita minus laudantium praesentium est amet repellendus enim ullam dolorem? Ab repellendus doloribus ea odit est. Amet fugiat officiis eligendi? Dignissimos, possimus?</h3>
+            <h3>Hunterland je malý český minecraft server. Je to takový nástupce jednoho serveru jedné komunity. Teď do něj dává komunita svojí práci a snaží se zajistit příjemné hraní.</h3>
         </div>
         <div className={styles.footerleft}>
             <h3>Kontakt:</h3>
@@ -25,7 +30,7 @@ return (
             <a href='#'>VIP</a>
         </div>
         <div className={styles.footerlogo}>
-            <Image alt='img' src={img} style={imgStyle} />
+            <Image alt='img' src={img} placeholder='blur' style={imgStyle} />
             <h3>made by miner</h3>
         </div>
     </footer>

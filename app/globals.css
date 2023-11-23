@@ -3,10 +3,11 @@
   --primary-text: #FFFFFF;
   --secondary-green: #006400;
   --dark-grey: #333333;
-  --light-grey: #CCCCCC;
+  --light-grey: #c3c3c3;
   --secondary-text: #000000;
   background-color: var(--dark-grey);
   color: var(--primary-text);
+  scroll-behavior: smooth;
 }
 
 @media (prefers-color-scheme: light) {
