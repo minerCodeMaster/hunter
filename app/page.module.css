@@ -485,7 +485,7 @@
     margin: 0;
     width: 90%;
     height: 60%;
-    font-size: .5rem;
+    font-size: .6rem;
   }
 
   .header{
@@ -545,15 +545,26 @@
   .container{
     font-size: 1vw;
     margin-bottom: 30rem;
-    font-size: .4rem;
+    font-size: .6rem;
+    height: 25rem;
+  }
+
+  .left{
+    left: -25vw;
+    height: 95%;
+  }
+
+  .right{
+    right: -25vw;
+    height: 95%;
   }
 
   .lefttext{
-    margin-right: 2.5rem;
+    margin-right: 5.5rem;
   }
 
   .righttext{
-    margin-left: 2.5rem;
+    margin-left: 5.5rem;
   }
 
   .linkbtn{
