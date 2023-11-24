@@ -20,13 +20,13 @@ return (
         <div className={styles.footerleft}>
             <h3>Kontakt:</h3>
             <a href="mailto:minerminarik@gmail.com">info@hunterland.com</a>
-            <a href='#'>Discord</a>
+            <a href='https://discord.gg/4SegMdKNkZ'>Discord</a>
             <a href='#'>Instagram</a>
         </div>
         <div className={styles.footerright}>
             <h3>Odkazy:</h3>
             <a href='#'>A-team</a>
-            <a href='#'>Minihry</a>
+            <a href='#'>Survival a Vanilla</a>
             <a href='#'>VIP</a>
         </div>
         <div className={styles.footerlogo}>
