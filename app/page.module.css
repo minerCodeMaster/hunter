@@ -564,17 +564,97 @@
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
-  .imgdiv{
+  .aboutdiv {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .aboutimg {
+    width: 100%;
+    height: 40%;
+  }
+
+  .aboutimg2 {
+    width: 95%;
+  }
+
+  .abouttext{
+    margin: 0;
+    width: 90%;
+    height: 60%;
+    font-size: 1.5rem;
+  }
+
+  .header{
+    font-size: 2rem;
+  }
+
+  .footerright{
+    font-size: 2rem;
+  }
+
+  .footerleft{
+    font-size: 2rem;
+  }
+
+  .footertop{
     display: none;
   }
 
- .fimgdiv{
-  display: none;
+  .footerlogo{
+    margin-bottom: 5rem;
+  }
+
+  .chunkytext{
+    font-size: 3rem;
+  }
+
+  .chunkyimg{
+    display: none;
+  }
+
+  .triplet{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .a{
+    width: 90%;
+    height: 30rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .b{
+    width: 90%;
+    height: 30rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .c{
+    width: 90%;
+    height: 30rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
   }
 
   .container{
-    font-size: 1vw;
-    margin-bottom: 40vh;
+    margin-bottom: 30rem;
+    font-size: .8rem;
+  }
+
+  .lefttext{
+    margin-right: 2.5rem;
+  }
+
+  .righttext{
+    margin-left: 2.5rem;
+  }
+
+  .linkbtn{
+    width: 7rem;
+    height: 3rem;
   }
 }
 
