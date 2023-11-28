@@ -1,0 +1,30 @@
+.main{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin-top: 40vh;
+}
+
+.head{
+    background: linear-gradient(to bottom, var(--primary-green), var(--secondary-green));
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgdiv{
+    width: 30%;
+    height: 90%;
+    border-radius: 1vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.textdiv{
+    width: 60%;
+    height: 90%;
+    font-size: 1.5rem;
+    padding: 5vh;
+}

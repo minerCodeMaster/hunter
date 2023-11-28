@@ -5,7 +5,7 @@
   justify-content: flex-start;
   background-color: var(--primary-green);
   color: var(--primary-text);
-  height: 70vh;
+  height: 50vh;
   width: 100vw;
   font-size: 5rem;
   font-weight: 700;
@@ -21,8 +21,8 @@
 }
 
 .imgdiv{
-  height: 80vh;
-  width: 80vh;
+  height: 60vh;
+  width: 60vh;
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 0);
   clip-path: polygon(0 0, 0 100%, 100% 0);
   position: absolute;
@@ -36,8 +36,8 @@
 }
 
 .uimgdiv{
-  height: 100vh;
-  width: 100vh;
+  height: 80vh;
+  width: 80vh;
   background-color: var(--secondary-green);
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 0);
   clip-path: polygon(0 0, 0 100%, 100% 0);
@@ -47,8 +47,8 @@
 }
 
 .nimgdiv{
-  height: 100vh;
-  width: 100vh;
+  height: 80vh;
+  width: 80vh;
   background-color: var(--dark-grey);
   -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
@@ -75,15 +75,14 @@
 }
 
 .chunkytext{
-  margin-top: 30vh;
-  margin-bottom: 5vh;
-  margin-left: 20vw;
+  margin-top: 4rem;
+  margin-left: 35vw;
   display: flex;
   flex-direction: column;
   color: var(--primary-text);
   height: 80vh;
   width: 100vw;
-  font-size: 5rem;
+  font-size: 6rem;
   font-style: bold;
   position: relative;
 }
@@ -93,8 +92,9 @@
   height: 12vw;
   position: absolute;
   right: 25vw;
-  top: 20vh;
+  top: -15vh;
   transition: 200ms;
+  z-index: 5;
 }
 
 .chunkyimg:hover{
@@ -206,6 +206,7 @@
   position: relative;
   overflow: hidden;
   box-shadow: .1vh .1vh 1vh black;
+  color: var(--secondary-text);
 }
 
 .a:hover{
@@ -226,6 +227,7 @@
   position: relative;
   overflow: hidden;
   box-shadow: .1vh .1vh 1vh black;
+  color: var(--secondary-text);
 }
 
 .b:hover{
@@ -246,6 +248,7 @@
   position: relative;
   overflow: hidden;
   box-shadow: .1vh .1vh 1vh black;
+  color: var(--secondary-text);
 }
 
 .c:hover{
@@ -358,7 +361,7 @@
   background-color: var(--primary-green);
   position: relative;
   color: var(--primary-text);
-  max-height: 80vh;
+  height: 50vh;
 }
 
 .footer h3{
@@ -375,8 +378,8 @@
 }
 
 .fimgdiv{
-  height: 90vh;
-  width: 90vh;
+  height: 50vh;
+  width: 50vh;
   -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   position: absolute;
@@ -387,8 +390,8 @@
 }
 
 .fuimgdiv{
-  height: 100vh;
-  width: 100vh;
+  height: 70vh;
+  width: 70vh;
   background-color: var(--secondary-green);
   -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
@@ -399,8 +402,8 @@
 }
 
 .fnimgdiv{
-  height: 100vh;
-  width: 100vh;
+  height: 70vh;
+  width: 70vh;
   background-color: var(--dark-grey);
   -webkit-clip-path: polygon(100% 0, 0% 100%, 0 0);
   clip-path: polygon(100% 0, 0% 100%, 0 0);
@@ -408,18 +411,6 @@
   left: 0;
   bottom: 0;
   z-index: 1;
-}
-
-.footertop { 
-  grid-area: 1 / 2 / 2 / 4;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary-text);
-  z-index: 5;
-  margin-right: 15vw;
-  font-size: 1vw;
 }
 
 .footertop h3 {
@@ -435,9 +426,9 @@
   text-align: center;
   color: var(--primary-text);
   z-index: 5;
-  margin-left: 5vw;
+  margin-left: 10vw;
   font-size: 2vw;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
 }
 
 .footerright { 
@@ -449,9 +440,9 @@
   text-align: center;
   color: var(--primary-text);
   z-index: 5;
-  margin-right: 5vw;
+  margin-right: 10vw;
   font-size: 2vw;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
 }
 
 .footerlogo { 
@@ -546,7 +537,7 @@
     font-size: 1vw;
     margin-bottom: 30rem;
     font-size: .6rem;
-    height: 25rem;
+    height: 15rem;
   }
 
   .left{
@@ -554,22 +545,33 @@
     height: 95%;
   }
 
+  .leftimg{
+    display: none;
+  }
+
   .right{
     right: -25vw;
     height: 95%;
   }
 
+  .rightimg{
+    display: none;
+  }
+
   .lefttext{
-    margin-right: 5.5rem;
+    margin-right: .8rem;
+    width: 10rem;
   }
 
   .righttext{
-    margin-left: 5.5rem;
+    margin-left: .8rem;
+    width: 10rem;
   }
 
   .linkbtn{
-    width: 5rem;
+    width: 3rem;
     height: 2rem;
+    font-size: .4rem;
   }
 }
 
