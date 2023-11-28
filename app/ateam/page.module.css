@@ -6,12 +6,13 @@
 }
 
 .head{
-    background: linear-gradient(to bottom, var(--primary-green), var(--secondary-green));
     height: 40vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: var(--light-grey);
+    color: var(--secondary-text);
 }
 
 .imgdiv{
