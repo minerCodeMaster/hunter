@@ -2,10 +2,10 @@
 
 import Image from "next/legacy/image"
 import styles from './page.module.css'
-import img from '../public/vanilla.png'
-import img2 from '../public/survival.png'
-import img3 from '../public/castle.jpg'
-import arrow from '../public/arrow-down.svg'
+import img from '../public/pictures/vanilla.png'
+import img2 from '../public/pictures/survival.png'
+import img3 from '../public/pictures/castle.jpg'
+import arrow from '../public/pictures/arrow-down.svg'
 import Link from "next/link"
 
 const imgStyle : {} = {width: '80%', height: '80%'};
@@ -41,18 +41,21 @@ export default function Home() {
         </div>
         <div className={styles.abouttext}>
           <h1>A že to za to stojí!</h1>
-          <h3>Ještě poměrně nedávno naše komunita utrpěli velkou ztrátu. Byl zrušen server. Nebyl to však ledajaký server. Byl to server, který hostil naší komunitu už pěkných pár let. Byla to nejdřív Sakura a potom Hyperonie? Nebo jinak? Ten první byl možná Hitcraft. To už je ale jedno. Důležité je, že ta komunita přetrvává. Sem tam někdo odejde a někdo přijde. Zažili jsme spolu desítky hodin zábavy a ještě to nekončí. Stojí to za to.</h3>
+          <h3>Ještě poměrně nedávno naše komunita utrpěla velkou ztrátu. Byl zrušen server. Nebyl to však ledajaký server. Byl to server, který hostil naší komunitu už pěkných pár let. Byla to nejdřív Sakura a potom Hyperonie? Nebo jinak? Ten první byl možná Hitcraft. To už je ale jedno. Důležité je, že ta komunita přetrvává. Sem tam někdo odejde a někdo přijde. Zažili jsme spolu desítky hodin zábavy a ještě to nekončí. Stojí to za to.</h3>
         </div>
       </div>
 
       <div className={styles.triplet}>
+        <Link  style={{textDecoration:'none'}} href='/ateam'>
         <div className={styles.a}>
           <div className={styles.img}>
             <Image src={img3} placeholder="blur" layout="fill" objectFit="cover" />
           </div>
-          <h2>Prátelský moderátorský tým</h2>
+          <h2>Přátelský moderátorský tým</h2>
           <h3>V našem moderátorském týmu najdete jen pečlivé a spravedlivé členy, kteří vám rádi pomohou.</h3>
         </div>
+        </Link>
+        <Link  style={{textDecoration:'none'}} href='/snv'>
         <div className={styles.b}>
         <div className={styles.img}>
             <Image src={img3} placeholder="blur" layout="fill" objectFit="cover" />
@@ -60,6 +63,8 @@ export default function Home() {
           <h2>Pečlivě připravený zážitek</h2>
           <h3>Na serveru vás čeká zážitek, na kterém jsme všichni pracovali a dali jsme si velmi záležet.</h3>
         </div>
+        </Link>
+        <Link href='https://www.twitch.tv/hunterovec579'  style={{textDecoration:'none'}}>
         <div className={styles.c}>
         <div className={styles.img}>
             <Image src={img3} placeholder="blur" layout="fill" objectFit="cover" />
@@ -67,11 +72,12 @@ export default function Home() {
           <h2>A livestreamy ze serveru!</h2>
           <h3>Na twitchi se můžete připojit k pravidelným livestreamům ze serveru a kdo ví, třeba si tam i najít nové kamarády.</h3>
         </div>
+        </Link>
       </div>
 
       <div className={styles.container}>
         <div className={styles.left}>
-          <Link href='#' >
+          <Link href='#'  style={{textDecoration:'none'}}>
             <div className={styles.linkbtn}>
               <h2>Zjisti víc!</h2>
             </div>
@@ -92,7 +98,7 @@ export default function Home() {
           <div className={styles.rightimg}>
             <Image src={img2} placeholder="blur" style={imgStyle} alt="img" />
           </div>
-          <Link href='#' >
+          <Link href='#'  style={{textDecoration:'none'}}>
             <div className={styles.linkbtn}>
               <h2>Zjisti víc!</h2>
             </div>

@@ -1,6 +1,6 @@
 import styles from './page.module.css'
 import Image from "next/legacy/image";
-import img from '../public/87371-3840x2160-desktop-4k-minecraft-wallpaper.jpg';
+import img from '../public/pictures/hehimg.jpg';
 
 export default function Header() {
     return (
