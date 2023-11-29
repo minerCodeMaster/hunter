@@ -2,10 +2,10 @@
 
 import Image from "next/legacy/image"
 import styles from './page.module.css'
-import img from '../public/vanilla.png'
-import img2 from '../public/survival.png'
-import img3 from '../public/castle.jpg'
-import arrow from '../public/arrow-down.svg'
+import img from '../public/pictures/vanilla.png'
+import img2 from '../public/pictures/survival.png'
+import img3 from '../public/pictures/castle.jpg'
+import arrow from '../public/pictures/arrow-down.svg'
 import Link from "next/link"
 
 const imgStyle : {} = {width: '80%', height: '80%'};

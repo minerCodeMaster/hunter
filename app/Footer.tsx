@@ -1,7 +1,7 @@
 import styles from './page.module.css'
 import Image from "next/legacy/image"
-import img from '../public/HUNTER_SERVER_small.png'
-import img2 from '../public/87371-3840x2160-desktop-4k-minecraft-wallpaper.jpg'
+import img from '../public/pictures/HUNTER_SERVER_small.png'
+import img2 from '../public/pictures/hehimg.jpg';
 
 const imgStyle : {} = {width: '100%', height: '100%'};
 
