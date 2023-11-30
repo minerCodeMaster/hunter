@@ -16,7 +16,7 @@ export default function Page() {
                 </div>
                 <div className={styles.textdiv}>
                     <h2>Děláme co můžem!</h2>
-                    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ex ipsa soluta fugit perspiciatis commodi quis repellendus sunt porro hic repudiandae eum libero quo ut, alias voluptas? Ab, voluptatum aperiam?</h3>
+                    <h3>I když se někdo občas může z našich rozhodnutí cítit ukřivděn, myslete pořád na to, že tyhle lidi, tu hrají a o server se starají ve svém volném čase a nemají z toho žádný výdělek.</h3>
                 </div>
             </section>
             <section className={styles.body}>

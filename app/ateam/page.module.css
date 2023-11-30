@@ -1,7 +1,6 @@
 .main{
     min-height: 100vh;
     width: 100vw;
-    overflow-x: hidden;
     margin-top: 40vh;
 }
 
@@ -169,5 +168,12 @@
 
     .textdiv{
         font-size: 1rem;
+    }
+}
+
+@media (max-height: 1000px) {
+    .imgcontainer{
+        width: 5rem;
+        height: 5rem;
     }
 }
