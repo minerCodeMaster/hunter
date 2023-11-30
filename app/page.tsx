@@ -55,13 +55,13 @@ export default function Home() {
           <h3>V našem moderátorském týmu najdete jen pečlivé a spravedlivé členy, kteří vám rádi pomohou.</h3>
         </div>
         </Link>
-        <Link  style={{textDecoration:'none'}} href='/snv'>
+        <Link  style={{textDecoration:'none'}} href='/vip'>
         <div className={styles.b}>
         <div className={styles.img}>
             <Image src={img3} placeholder="blur" layout="fill" objectFit="cover" />
           </div>
-          <h2>Pečlivě připravený zážitek</h2>
-          <h3>Na serveru vás čeká zážitek, na kterém jsme všichni pracovali a dali jsme si velmi záležet.</h3>
+          <h2>Možnost podpořit server</h2>
+          <h3>Tenhle server děláme ve volném čase a nemáme z něj výdělek. Musíme ale stejně platit za hosting. Když si koupíte VIP tak nejen, že podpoříte server, ale ještě budete mít výhody na serveru!</h3>
         </div>
         </Link>
         <Link href='https://www.twitch.tv/hunterovec579'  style={{textDecoration:'none'}}>
@@ -77,7 +77,7 @@ export default function Home() {
 
       <div className={styles.container}>
         <div className={styles.left}>
-          <Link href='#'  style={{textDecoration:'none'}}>
+          <Link href='/snv'  style={{textDecoration:'none'}}>
             <div className={styles.linkbtn}>
               <h2>Zjisti víc!</h2>
             </div>
@@ -98,7 +98,7 @@ export default function Home() {
           <div className={styles.rightimg}>
             <Image src={img2} placeholder="blur" style={imgStyle} alt="img" />
           </div>
-          <Link href='#'  style={{textDecoration:'none'}}>
+          <Link href='/snv'  style={{textDecoration:'none'}}>
             <div className={styles.linkbtn}>
               <h2>Zjisti víc!</h2>
             </div>
