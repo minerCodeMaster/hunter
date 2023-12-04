@@ -71,3 +71,56 @@
 .text h4{
     text-shadow: .1vh .1vh .2vh black;
 }
+
+@media( max-width: 1000px ) {
+    .left{
+        width: 100%;
+        height: auto;
+        clip-path: none;
+    }
+
+    .right{
+        width: 100%;
+        height: auto;
+        clip-path: none;
+        margin-left: 0;
+    }
+}
+
+@media(max-width:767px){
+    .left, .right{
+        height: 70rem;
+    }
+
+    h2{
+        text-align: center !important;
+    }
+
+    .left h4{
+        padding: none;
+        text-align: center;
+        margin-top: 60%;
+        margin-left: 7%;
+    }
+
+    .text{
+        margin-top: 60%;
+        text-align: center;
+        margin-right: 20%;
+        padding: 0;
+    }
+
+    .img{
+        filter: none;
+    }
+}
+
+@media(max-width: 450px) {
+    h4{
+        font-size: 1.2rem;
+    }
+
+    .f{
+        font-size: 5rem !important;
+    }
+}
