@@ -1,0 +1,61 @@
+.body{
+    min-height: 100vh;
+    width: 100vw;
+    margin-top: 15vh;
+    margin-bottom: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body h2{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.body h4{
+    font-size: 1.6rem;
+    padding: 5vw;
+}
+
+.table{
+    min-height: 90vh;
+    min-width: 60vw;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: x-large;
+}
+
+.table, .table tr, .table td{
+    border-collapse: collapse;
+    border: 1px var(--light-grey) solid;
+}
+
+.table button{
+    border: none;
+    border-radius: 2vh 2vh 2vh 2vh; 
+    width: 80%;
+    height: 3rem;
+    transition: 200ms;
+}
+
+.table button:hover{
+    background-color: var(--primary-green);
+    cursor: pointer;
+}
+
+.table button:active{
+    background-color: var(--light-grey);
+}
+
+@media(max-width: 400px){
+    .table{
+        font-size: .8rem;
+    }
+
+    .table button{
+        width: 100%;
+    }
+
+}
