@@ -16,14 +16,14 @@ export default function Page() {
                     <div className={styles.img}>
                         <Image src={img} alt='img' placeholder='blur' style={imgStyle}/>
                     </div>
-                    <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum quos magni cum recusandae dolore officiis porro esse saepe dignissimos dolorum tempore labore vel, ducimus excepturi est ipsa id doloremque sed? <br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, vel, quidem ipsam nobis labore illo nam explicabo voluptas provident hic natus iure commodi? Mollitia quibusdam provident cumque velit, dolores est. Optio, inventore. Consequuntur aut provident explicabo ut optio assumenda distinctio!</h4>
+                    <h4>Vanilla na našem serveru má všechno, co má vanilla mít, tedy vlastně memá nic, skoro nic. Přece jen má naše Vanilla něco speciálního. To je naše custom generace světa. Čekají na vás totiž obrovské hory, i široká údolí, vesnice, které přímo oživnou a stromy, které mají svůj charakter.<br/>Jinak má ale naše Vanilla prostou herní mechaniku s tím, co má minecraft mít. Klasické kopání diamantů, nebezpečné prozkoumávání pekelného netheru a skoro prázdný End.</h4>
                 </div>
                 </div>
                 <h2 className={styles.f}>Survival</h2>
                 <div className={styles.wrap}>
                 <div className={styles.right}>
                     <div className={styles.text}>
-                        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum quos magni cum recusandae dolore officiis porro esse saepe dignissimos dolorum tempore labore vel, ducimus excepturi est ipsa id doloremque sed? <br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, vel, quidem ipsam nobis labore illo nam explicabo voluptas provident hic natus iure commodi? Mollitia quibusdam provident cumque velit, dolores est. Optio, inventore. Consequuntur aut provident explicabo ut optio assumenda distinctio!</h4>
+                        <h4>Náš Survival na druhou stranu není tak prostý. Je tam ekonomika, hráči mají více možností, i ta herní mechanika je vylepšená. Prostě je to zase úplně jiný zážitek. Survival nám dává hodně práce a je velmi obsáhlý. Proto budeme rádi, když nám dáte vědět, když najdete nějakou chybu.</h4>
                     </div>
                     <div className={styles.img}>
                         <Image src={img} alt='img' placeholder='blur' style={imgStyle}/>

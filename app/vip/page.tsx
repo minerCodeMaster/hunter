@@ -1,6 +1,9 @@
-import Image from "next/legacy/image";
-import styles from './page.module.css'
+'use client'
+import styles from './page.module.css';
 
+function click(){
+    alert('Momentálně nedostupné :(')
+}
 
 export default function Page() {
     return(
@@ -8,11 +11,12 @@ export default function Page() {
                 <h2>VIP</h2>
                 <h4>Tento server je volnočasová záležitost jak pro hráče, tak i pro ty, co tento server spravují.<br/>Bohužel se za hosting serveru musí platit. K tomu nám můžete pomoci vy! Peníze z VIP jdou zase zpět do serveru!<br/>A ještě za to dostanete výhody na serveru.</h4>
                 <table className={styles.table}>
+                    <tbody>
                     <tr>
                         <th>Výhody na serveru</th>
-                        <th>VIP 1</th>
-                        <th>VIP 2</th>
-                        <th>VIP 3</th>
+                        <th>VIP</th>
+                        <th>VIP+</th>
+                        <th>VIP++</th>
                     </tr>
                     <tr>
                         <th>Prefix</th>
@@ -24,13 +28,13 @@ export default function Page() {
                         <th>Klíč k VIP bedně</th>
                         <td>1</td>
                         <td>3</td>
-                        <td>5</td>
+                        <td>10</td>
                     </tr>
                     <tr>
-                        <th>Vyhoda</th>
-                        <td>Ano</td>
-                        <td>Ano</td>
-                        <td>Ano</td>
+                        <th>Přídavek peněz</th>
+                        <td>5000</td>
+                        <td>11000</td>
+                        <td>20000</td>
                     </tr>
                     <tr>
                         <th>Barevné písmo</th>
@@ -39,31 +43,25 @@ export default function Page() {
                         <td>Ano</td>
                     </tr>
                     <tr>
-                        <th>Vyhoda</th>
+                        <th>/craft</th>
                         <td>Ne</td>
                         <td>Ano</td>
                         <td>Ano</td>
                     </tr>
                     <tr>
-                        <th>Vyhoda</th>
+                        <th>/anvil</th>
                         <td>Ne</td>
                         <td>Ne</td>
                         <td>Ano</td>
                     </tr>
                     <tr>
-                        <th>Vyhoda</th>
+                        <th>/et</th>
                         <td>Ne</td>
                         <td>Ne</td>
                         <td>Ano</td>
                     </tr>
                     <tr>
-                        <th>Vyhoda</th>
-                        <td>Ne</td>
-                        <td>Ne</td>
-                        <td>Ano</td>
-                    </tr>
-                    <tr>
-                        <th>Vyhoda</th>
+                        <th>/ec</th>
                         <td>Ne</td>
                         <td>Ne</td>
                         <td>Ano</td>
@@ -76,10 +74,11 @@ export default function Page() {
                     </tr>
                     <tr>
                         <th></th>
-                        <td><a href="#"><button>Koupit</button></a></td>
-                        <td><a href="#"><button>Koupit</button></a></td>
-                        <td><a href="#"><button>Koupit</button></a></td>
+                        <td><a href="#"><button onClick={click}>Koupit</button></a></td>
+                        <td><a href="#"><button onClick={click}>Koupit</button></a></td>
+                        <td><a href="#"><button onClick={click}>Koupit</button></a></td>
                     </tr>
+                    </tbody>
                 </table>
             </section>
         );
