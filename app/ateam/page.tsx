@@ -1,6 +1,6 @@
 import Image from 'next/legacy/image';
 import styles from './page.module.css'
-import img from '../../public/pictures/hehimg.jpg'
+import img from '../../public/pictures/villager.png'
 import adampfp from '../../public/profiles/adampfp.png'
 import hunterpfp from '../../public/profiles/hunterpfp.png'
 import matypfp from '../../public/profiles/matypfp.jpg'

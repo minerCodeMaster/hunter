@@ -4,7 +4,10 @@ import Image from "next/legacy/image"
 import styles from './page.module.css'
 import img from '../public/pictures/vanilla.png'
 import img2 from '../public/pictures/survival.png'
-import img3 from '../public/pictures/castle.jpg'
+import img3 from '../public/pictures/sun.png'
+import img4 from '../public/pictures/pumpkin.png'
+import img5 from '../public/pictures/nether2.png'
+import img6 from '../public/pictures/castle2.png'
 import arrow from '../public/pictures/arrow-down.svg'
 import Link from "next/link"
 
@@ -49,7 +52,7 @@ export default function Home() {
         <Link  style={{textDecoration:'none'}} href='/ateam'>
         <div className={styles.a}>
           <div className={styles.img}>
-            <Image src={img3} placeholder="blur" layout="fill" objectFit="cover" />
+            <Image src={img4} placeholder="blur" layout="fill" objectFit="cover" />
           </div>
           <h2>Přátelský moderátorský tým</h2>
           <h3>V našem moderátorském týmu najdete jen pečlivé a spravedlivé členy, kteří vám rádi pomohou.</h3>
@@ -58,7 +61,7 @@ export default function Home() {
         <Link  style={{textDecoration:'none'}} href='/vip'>
         <div className={styles.b}>
         <div className={styles.img}>
-            <Image src={img3} placeholder="blur" layout="fill" objectFit="cover" />
+            <Image src={img5} placeholder="blur" layout="fill" objectFit="cover" />
           </div>
           <h2>Možnost podpořit server</h2>
           <h3>Tenhle server děláme ve volném čase a nemáme z něj výdělek. Musíme ale stejně platit za hosting. Když si koupíte VIP tak nejen, že podpoříte server, ale ještě budete mít výhody na serveru!</h3>
@@ -67,7 +70,7 @@ export default function Home() {
         <Link href='https://www.twitch.tv/hunterovec579'  style={{textDecoration:'none'}}>
         <div className={styles.c}>
         <div className={styles.img}>
-            <Image src={img3} placeholder="blur" layout="fill" objectFit="cover" />
+            <Image src={img6} placeholder="blur" layout="fill" objectFit="cover" />
           </div>
           <h2>A livestreamy ze serveru!</h2>
           <h3>Na twitchi se můžete připojit k pravidelným livestreamům ze serveru a kdo ví, třeba si tam i najít nové kamarády.</h3>
