@@ -1,6 +1,6 @@
 import styles from './page.module.css'
 import Image from "next/legacy/image";
-import img from '../public/pictures/hehimg.jpg';
+import img from '../public/pictures/castle1.png';
 import Link from 'next/link';
 
 export default function Header() {

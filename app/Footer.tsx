@@ -1,7 +1,7 @@
 import styles from './page.module.css'
 import Image from "next/legacy/image"
 import img from '../public/pictures/HUNTER_SERVER_small.png'
-import img2 from '../public/pictures/hehimg.jpg';
+import img2 from '../public/pictures/castle1.png';
 
 const imgStyle : {} = {width: '100%', height: '100%'};
 
@@ -16,7 +16,7 @@ return (
         <div className={styles.fnimgdiv}/>
         <div className={styles.footerleft}>
             <h3>Kontakt:</h3>
-            <a href="mailto:podpora@hunterland.cz">info@hunterland.com</a>
+            <a href="mailto:podpora@hunterland.cz">info@hunterland.cz</a>
             <a href='https://discord.gg/4SegMdKNkZ'>Discord</a>
             <a href='https://www.instagram.com/hunterland.cz/'>Instagram</a>
         </div>

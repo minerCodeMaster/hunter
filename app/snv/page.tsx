@@ -1,7 +1,8 @@
 import styles from './page.module.css'
 import Image from 'next/legacy/image';
 import Link from 'next/link';
-import img from '../../public/pictures/castle.jpg'
+import img from '../../public/pictures/castle2.png'
+import img2 from '../../public/pictures/nether1.png'
 
 const imgStyle : {} = {width: '200%', height: '100%'};
 
@@ -23,10 +24,10 @@ export default function Page() {
                 <div className={styles.wrap}>
                 <div className={styles.right}>
                     <div className={styles.text}>
-                        <h4>Náš Survival na druhou stranu není tak prostý. Je tam ekonomika, hráči mají více možností, i ta herní mechanika je vylepšená. Prostě je to zase úplně jiný zážitek. Survival nám dává hodně práce a je velmi obsáhlý. Proto budeme rádi, když nám dáte vědět, když najdete nějakou chybu.</h4>
+                        <h4>Náš Survival na druhou stranu není tak prostý. Je tam ekonomika, hráči mají více možností, i ta herní mechanika je vylepšená. Prostě je to zase úplně jiný zážitek. Survival nám dává hodně práce a je velmi obsáhlý. Snažíme se to vychytat do posledního detailu. Proto budeme rádi, když nám dáte vědět, když najdete nějakou chybu.</h4>
                     </div>
                     <div className={styles.img}>
-                        <Image src={img} alt='img' placeholder='blur' style={imgStyle}/>
+                        <Image src={img2} alt='img' placeholder='blur' style={imgStyle}/>
                     </div>
                 </div>
                 </div>
