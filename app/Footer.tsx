@@ -16,9 +16,9 @@ return (
         <div className={styles.fnimgdiv}/>
         <div className={styles.footerleft}>
             <h3>Kontakt:</h3>
-            <a href="mailto:minerminarik@gmail.com">info@hunterland.com</a>
+            <a href="mailto:podpora@hunterland.cz">info@hunterland.com</a>
             <a href='https://discord.gg/4SegMdKNkZ'>Discord</a>
-            <a href='#'>Instagram</a>
+            <a href='https://www.instagram.com/hunterland.cz/'>Instagram</a>
         </div>
         <div className={styles.footerright}>
             <h3>Odkazy:</h3>

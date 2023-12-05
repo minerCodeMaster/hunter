@@ -1,0 +1,126 @@
+.main{
+    min-height: 100vh;
+}
+
+.body{
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+.body h2.f{
+    font-size: 6rem;
+    margin: 0;
+    text-align: right;
+    margin-right: 5vw;
+    margin-top: 20vh;
+}
+
+.body h2{
+    font-size: 6rem;
+    margin: 0;
+    text-align: left;
+    margin-left: 5vw;
+}
+
+.img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    filter: brightness(55%);
+}
+
+.left{
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+    height: 60vh;
+    width: 90vw;
+    background: linear-gradient(to right, var(--primary-green), var(--secondary-green));
+}
+
+.left h4{
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    padding: 2vh;
+    max-width: 80%;
+    font-size: 1.5rem;
+    text-shadow: .1vh .1vh .2vh black;
+
+}
+
+.right{
+    background: linear-gradient(to left, var(--primary-green), var(--secondary-green));
+    height: 60vh;
+    width: 90vw;
+    margin-left: 10vw;
+    -webkit-clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.text{
+    position: absolute;
+    z-index: 5;
+    text-align: right;
+    max-width: 60%;
+    right: 0;
+    padding: 2vh;
+    font-size: 1.5rem;
+}
+
+.text h4{
+    text-shadow: .1vh .1vh .2vh black;
+}
+
+@media( max-width: 1000px ) {
+    .left{
+        width: 100%;
+        height: auto;
+        clip-path: none;
+    }
+
+    .right{
+        width: 100%;
+        height: auto;
+        clip-path: none;
+        margin-left: 0;
+    }
+}
+
+@media(max-width:767px){
+    .left, .right{
+        height: 70rem;
+    }
+
+    .body h2{
+        text-align: center !important;
+    }
+
+    .left h4{
+        padding: none;
+        text-align: center;
+        margin-top: 60%;
+        margin-left: 7%;
+    }
+
+    .text{
+        margin-top: 60%;
+        text-align: center;
+        margin-right: 20%;
+        padding: 0;
+    }
+
+    .img{
+        filter: none;
+    }
+}
+
+@media(max-width: 450px) {
+    .left h4, .text h4{
+        font-size: 1.2rem;
+    }
+
+    .f{
+        font-size: 5rem !important;
+    }
+}
